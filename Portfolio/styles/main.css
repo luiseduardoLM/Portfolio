@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+/*Se importa la fuente*/
+
+* {
+    font-family: 'Noto Serif';
+}
+
+/*Cambia el color de los links*/
+a {
+    text-decoration: none;
+    color: #0096FF !important;
+    font-weight: 400;
+}
+
+/*Cambia el color de los links al seleccionarlos*/
+a:hover {
+    color: #d33682 !important;
+    text-decoration: none;
+}
+
+ul {list-style-type: none;} /* Oculta los puntos de lista */
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+/* Oculta la marca de agua de streamlit*/
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
